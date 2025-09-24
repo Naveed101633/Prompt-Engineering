@@ -1,7 +1,4 @@
 # 🧠 Chain of Thought (CoT) Prompting — Encourage step-by-step reasoning for complex problems
-
-**Subtitle:** A production-ready README to elicit clear, multi-step reasoning from large language models.
-
 ---
 
 ## Overview
