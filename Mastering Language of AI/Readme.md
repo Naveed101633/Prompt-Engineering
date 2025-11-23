@@ -132,3 +132,200 @@ Similar to Top-P + Temperature, tune **either frequency OR presence penalty**, n
 Each model version behaves differently.  
 Use these settings as a starting point, then experiment to find what works best.
 
+---
+# General Tips for Designing Prompts
+
+## 1️⃣ Start Simple
+
+Prompt design is an iterative process.
+
+Start with a simple prompt → Test → Add more details → Improve the output.
+This helps you avoid confusion and makes it easier to control results.
+
+Why start simple?
+
+Easier to see what the model understands
+
+You avoid unnecessary complexity
+
+You can build quality step-by-step
+
+General Framework
+[Basic instruction]
+
+Then slowly add:
+- More context
+- More constraints
+- More examples
+
+Example
+
+Step 1 (Simple):
+
+Explain machine learning.
+
+
+Step 2 (Add context):
+
+Explain machine learning to a beginner.
+
+
+Step 3 (Add structure):
+
+Explain machine learning to a beginner using:
+- 3 bullet points  
+- 1 simple example  
+
+## 2️⃣ The Instruction
+
+The model responds best when you use clear action words like:
+
+Write, Summarize, Classify, Translate, Rewrite, Extract, Compare, Generate
+
+Instructions should appear at the top of the prompt and be separated clearly.
+
+General Framework
+### Instruction ###
+[What you want the model to do]
+
+### Input ###
+[Your data]
+
+### Output Format ###
+[How the answer should look]
+
+Example
+### Instruction ###
+Translate the text into Spanish.
+
+### Input ###
+"Good evening!"
+
+### Output Format ###
+Spanish: <translation>
+
+
+Output:
+Spanish: ¡Buenas noches!
+
+## 3️⃣ Specificity
+
+The more specific your prompt is, the more accurate the output will be.
+
+Things to specify
+
+Audience → (children, experts, beginners)
+
+Style → (formal, friendly, creative)
+
+Format → (JSON, bullets, list, table)
+
+Length → (2 sentences, 200 words)
+
+Requirements → (must include X, must avoid Y)
+
+General Framework
+Task: [What to do]
+Goal: [What outcome you want]
+Audience: [Who it is for]
+Style: [Tone/format]
+Length: [Exact length]
+Output Format: [Structure]
+
+Example:
+Input: [...]
+Output: [...]
+
+Example
+Task: Extract all country names from the text.
+Output Format: Countries: <comma_separated_list>
+
+Input:
+"Canada and Japan are working with Germany on clean energy projects."
+
+
+Output:
+Countries: Canada, Japan, Germany
+
+## 4️⃣ Avoid Impreciseness
+
+Vague prompts cause vague answers.
+
+❌ Imprecise Example
+Explain prompt engineering briefly but not too much.
+
+
+This is unclear.
+How brief? What style? For whom?
+
+✔️ Precise Version
+Explain prompt engineering in 2–3 sentences to a high school student.
+
+General Framework
+[Task]
+Use [exact length] to explain [topic] to [specific audience] in [style].
+
+Example
+Explain artificial intelligence in exactly 3 bullet points to a 12-year-old.
+
+## 5️⃣ Focus on “What To Do,” Not “What Not To Do”
+
+Telling the model what not to do can confuse it.
+Instead, tell it exactly what to do.
+
+❌ Not Good
+Do NOT ask questions.
+Do NOT ask for personal details.
+Recommend a movie.
+
+✔️ Much Better
+Recommend one movie based only on the user's message.
+Do not ask any additional questions.
+Provide:
+- Movie title
+- 1 sentence summary
+- Why the user may like it
+
+General Framework
+Your task: [Positive instruction]
+Use only: [Allowed information]
+Do not ask follow-up questions.
+
+Output Format:
+- item 1
+- item 2
+- item 3
+
+Example
+Your task: Suggest a book.
+Use only the information provided.
+Output:
+Title:
+Summary:
+Reason:
+
+## ✅ Final Master Framework (Copy-Paste Ready)
+### Instruction ###
+[Clear command]
+
+### Context ###
+[Background information]
+
+### Input ###
+[User text or data]
+
+### Constraints ###
+- Length:
+- Tone:
+- Style:
+- Audience:
+- Must include:
+- Must avoid:
+- Additional rules:
+
+### Output Format ###
+[Desired structure: JSON, table, bullets, paragraph]
+
+### Example ###
+Input: [...]
+Output: [...]
