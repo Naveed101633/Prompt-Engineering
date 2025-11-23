@@ -211,12 +211,6 @@ How brief? What style? For whom?
 ✔️ Precise Version
 Explain prompt engineering in 2–3 sentences to a high school student.
 
-General Framework
-[Task]
-Use [exact length] to explain [topic] to [specific audience] in [style].
-
-Example
-Explain artificial intelligence in exactly 3 bullet points to a 12-year-old.
 
 ## 5️⃣ Focus on “What To Do,” Not “What Not To Do”
 
@@ -235,24 +229,6 @@ Provide:
 - Movie title
 - 1 sentence summary
 - Why the user may like it
-
-General Framework
-Your task: [Positive instruction]
-Use only: [Allowed information]
-Do not ask follow-up questions.
-
-Output Format:
-- item 1
-- item 2
-- item 3
-
-Example
-Your task: Suggest a book.
-Use only the information provided.
-Output:
-Title:
-Summary:
-Reason:
 
 ## ✅ Final Master Framework (Copy-Paste Ready)
 
