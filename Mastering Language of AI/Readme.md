@@ -305,27 +305,52 @@ Summary:
 Reason:
 
 ## ✅ Final Master Framework (Copy-Paste Ready)
-### Instruction ###
-[Clear command]
 
-### Context ###
-[Background information]
+## 1️⃣ Instruction
+Clearly tell the model what to do.  
 
-### Input ###
-[User text or data]
+**Example:**  
+Analyze the potential impact of agentic AI
 
-### Constraints ###
-- Length:
-- Tone:
-- Style:
-- Audience:
-- Must include:
-- Must avoid:
-- Additional rules:
+---
 
-### Output Format ###
-[Desired structure: JSON, table, bullets, paragraph]
+## 2️⃣ Context
+Provide background information or scenario to help the model understand the task.  
 
-### Example ###
-Input: [...]
-Output: [...]
+**Example:**  
+AI—autonomous systems capable of making decisions, taking actions, and interacting with humans or other systems—on both general users and developers over the next 5–10 years
+
+---
+
+## 3️⃣ Input
+Include the user’s data or text the model should work with.  
+
+**Example:**  
+"Considering its effects on everyday applications"
+
+---
+
+## 4️⃣ Constraints
+Define rules to make the output focused and usable. 
+**Example:**  
+"Discuss potential benefits, challenges, and ethical implications, providing concrete examples and scenarios"
+
+- **Length:** 3–4 bullet points  
+- **Tone:** Conversational but informative  
+- **Style:** Bullets  
+- **Audience:** General users & developers  
+- **Must include:** Future impact, usability, ethical considerations, developer perspective  
+- **Must avoid:** Technical jargon, overly long paragraphs  
+- **Additional rules:** Each point should be concise, actionable, and easy to understand
+
+---
+
+## 5️⃣ Output Format
+Specify how the model should structure the output.  
+
+- Bullet points (3–4)  
+- Each point should be 1–2 sentences  
+- Clear and readable
+
+## Complete Prompt:
+""Analyze the potential impact of agentic AI—autonomous systems capable of making decisions, taking actions, and interacting with humans or other systems—on both general users and developers over the next 5–10 years, considering its effects on everyday applications, software development, productivity, safety, accessibility, and AI ethics. Discuss potential benefits, challenges, and ethical implications, providing concrete examples and scenarios of how these systems might transform user experiences, development practices, and the responsibilities of AI creators. Explain within 10-15 bullet lines""
