@@ -5,7 +5,7 @@ A practical, beginner-friendly introduction to writing better prompts for LLMs.
 
 ## 📌 Table of Contents  
 - [LLM Settings](#llm-settings)
-- [General Tips for Designing Prompts](#prompting-tips)  
+- [General Tips for Designing Prompts](#general-tips-for-designing-prompts)
 - Prompt Elements *(coming soon)*  
 - General Tips for Designing Prompts *(coming soon)*  
 - Examples of Prompts *(coming soon)*  
