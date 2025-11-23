@@ -144,13 +144,13 @@ This helps you avoid confusion and makes it easier to control results.
 
 Why start simple?
 
-Easier to see what the model understands
+- Easier to see what the model understands
 
-You avoid unnecessary complexity
+- You avoid unnecessary complexity
 
-You can build quality step-by-step
+- You can build quality step-by-step
 
-General Framework
+- General Framework
 [Basic instruction]
 
 Then slowly add:
@@ -161,91 +161,41 @@ Then slowly add:
 Example
 
 Step 1 (Simple):
-
-Explain machine learning.
+1. Explain machine learning.
 
 
 Step 2 (Add context):
-
-Explain machine learning to a beginner.
+2. Explain machine learning to a beginner.
 
 
 Step 3 (Add structure):
-
-Explain machine learning to a beginner using:
+3. Explain machine learning to a beginner using:
 - 3 bullet points  
 - 1 simple example  
 
 ## 2️⃣ The Instruction
 
-The model responds best when you use clear action words like:
+- The model responds best when you use clear action words like:
 
-Write, Summarize, Classify, Translate, Rewrite, Extract, Compare, Generate
+- Write, Summarize, Classify, Translate, Rewrite, Extract, Compare, Generate
 
-Instructions should appear at the top of the prompt and be separated clearly.
-
-General Framework
-### Instruction ###
-[What you want the model to do]
-
-### Input ###
-[Your data]
-
-### Output Format ###
-[How the answer should look]
-
-Example
-### Instruction ###
-Translate the text into Spanish.
-
-### Input ###
-"Good evening!"
-
-### Output Format ###
-Spanish: <translation>
-
-
-Output:
-Spanish: ¡Buenas noches!
+- Instructions should appear at the top of the prompt and be separated clearly.
 
 ## 3️⃣ Specificity
 
-The more specific your prompt is, the more accurate the output will be.
+- The more specific your prompt is, the more accurate the output will be.
 
-Things to specify
+- Things to specify
 
-Audience → (children, experts, beginners)
+- Audience → (children, experts, beginners)
 
-Style → (formal, friendly, creative)
+- Style → (formal, friendly, creative)
 
-Format → (JSON, bullets, list, table)
+- Format → (JSON, bullets, list, table)
 
-Length → (2 sentences, 200 words)
+- Length → (2 sentences, 200 words)
 
-Requirements → (must include X, must avoid Y)
-
-General Framework
-Task: [What to do]
-Goal: [What outcome you want]
-Audience: [Who it is for]
-Style: [Tone/format]
-Length: [Exact length]
-Output Format: [Structure]
-
-Example:
-Input: [...]
-Output: [...]
-
-Example
-Task: Extract all country names from the text.
-Output Format: Countries: <comma_separated_list>
-
-Input:
-"Canada and Japan are working with Germany on clean energy projects."
-
-
-Output:
-Countries: Canada, Japan, Germany
+- Requirements → (must include X, must avoid Y)
 
 ## 4️⃣ Avoid Impreciseness
 
