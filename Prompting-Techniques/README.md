@@ -2,7 +2,7 @@
 
 This tutorial is part of my **“Prompt Engineering: From Zero to Hero”** series — a complete learning path designed for beginners and professionals who want to master AI prompting techniques:
 
-- [Zero-Shot Prompting](#zero-shot-prompting) ← You are here  
+- [Zero-Shot Prompting](#zero-shot-prompting)
 - [Few-Shot Prompting](#)  
 - [Prompt Chaining](#)  
 
