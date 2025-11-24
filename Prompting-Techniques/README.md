@@ -2,8 +2,7 @@
 
 This tutorial is part of my **“Prompt Engineering: From Zero to Hero”** series — a complete learning path designed for beginners and professionals who want to master AI prompting techniques:
 
- [Prompt Engineering for Everyone](#prompt-engineering-for-everyone)
-- [Zero-Shot Prompting](#zero-shot-prompting) ← You are here
+- [Zero-Shot Prompting](#zero-shot-prompting) 
 - [Few-Shot Prompting](#few-shot-prompting)
 - [Prompt Chaining](#prompt-chaining)
 
@@ -18,9 +17,7 @@ Each topic focuses on **one core technique**, teaches when and how to use it, an
 Zero-shot prompting is a technique where you instruct an AI model to perform a task **without giving any examples**.  
 The model relies entirely on:
 
-- **its pre-trained knowledge**, and  
-- **your instructions**  
-
+- **its pre-trained knowledge**, and  **your simple instructions**  
 …to understand what it must do.
 
 LLMs (Large Language Models) are trained on massive datasets, allowing them to **generalize extremely well** and handle new tasks simply from a clear prompt.
@@ -40,15 +37,15 @@ LLMs (Large Language Models) are trained on massive datasets, allowing them to *
 When you give a zero-shot prompt, the model uses:
 
 ### 📚 Pre-Training Knowledge
-Learned from billions of sentences across books, websites, papers, etc.
+- Learned from billions of sentences across books, websites, papers, etc.
 
 ### 🧩 Pattern Recognition
-Understanding grammar, meaning, reasoning, and relationships.
+- Understanding grammar, meaning, reasoning, and relationships.
 
 ### 🧠 Context Understanding
-Interpreting your instructions based on learned language behavior.
+- Interpreting your instructions based on learned language behavior.
 
-The model then generates an answer that matches your task — even without having seen that exact task before.
+→ The model then generates an answer that matches your task — even without having seen that exact task before.
 
 ---
 
@@ -124,26 +121,6 @@ The **clearer the instructions**, the better the output.
 
 ---
 
-## 🧪 Example: Prompt Sensitivity
-
-**Given a text about the Industrial Revolution…**
-
-**Prompt:**
-Summarize this text in one sentence.
-
-makefile
-Copy code
-
-**Output:**
-A clear, single-sentence summary describing the shift from agrarian to industrial societies.
-
-yaml
-Copy code
-
-- → Shows strong reasoning, but **slight wording changes** may produce different summary styles.
-
----
-
 ## ⚠️ Understanding Bias
 
 Zero-shot models may unintentionally show:
@@ -165,5 +142,3 @@ Zero-shot prompting is:
 - Flexible  
 - Beginner-friendly  
 - Fast and cost-efficient  
-
-It allows anyone — even without technical skills — to perform **advanced AI tasks** using natural language instru
