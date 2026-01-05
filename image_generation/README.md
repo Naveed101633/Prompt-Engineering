@@ -41,7 +41,7 @@ Reference Image: uploaded_face.jpg
   creating dramatic horizontal motion blur that streaks the background and the
   edges of his form._
   
-  ---
+---
   
 **3️⃣ Fish-eye Portrait 📸**
 
@@ -70,7 +70,8 @@ _A hyper-realistic night-time iPhone photo with gritty, harsh direct flash.
   buried in stone, fuselage torn, debris scattered, heavy smoke drifting through
   the cold night air. Uneven exposure, visible grain, slight motion blur.
   Feels accidental, dirty, paparazzi-like — raw, brutal, real._
-  
+
+---
 **5️⃣ Ice Cave 🧊**
 
 _A chaotic, flash-lit winter scene set inside a real, lived-in igloo in the
@@ -100,7 +101,8 @@ _A chaotic, flash-lit winter scene set inside a real, lived-in igloo in the
   100% preserved. —ar 4:5 —direct flash —grainy film —dark festive chaos
   —rebellious holiday aesthetic —Yakut Arctic —residential igloo
   —Porsche 911 GT3_
-  
+ 
+--- 
 **6️⃣ Arctic Snowfield ❄️✈️**
  
 _A gritty night-time winter photograph in a vast, empty Arctic snowfield.
