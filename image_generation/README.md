@@ -6,12 +6,42 @@ It’s not a course. It’s not a deep dive. It’s simply a way for you to get 
 ## 👀 Why this handbook exists
 Most creators struggle because they only see the final image—not the structure, intention, or setup. Here, I share the actual prompts from the carousel examples exactly as I use them.  
 
-Use this to:
+**By Example — with Real Prompts and Outputs**  
 
-1. Understand how short, precise direction works  
-2. See how mood and lighting matter more than long descriptions  
-3. Get a taste of what intentional prompting feels like  
-4. Upgrade your own process immediately  
+Prompt at [Google Gemini](https://gemini.google.com/)  
+
+- **Google Nano Banana** (like MidJourney, DALL·E, or Stable Diffusion, Seemdream) responds to highly descriptive prompts. The more structured, visual, and contextual your input, the closer the output matches your intent.  
+
+- [10 Best Google Gemini AI Photo Editing Prompts For Men To Create 4k HD Portraits](https://neolifehospital.in/10-best-google-gemini-ai-photo-editing-prompts-for-men/)  
+
+- [Top 30 New Trending Gemini AI Photo Editing Prompts for Girls: Viral Selfie Ideas 2025](https://www.freejobalert.com/article/new-trending-gemini-ai-photo-editing-prompts-for-girls-19256)
+
+
+## Core Principles
+1. Specificity Over Generality
+Vague: "a nice portrait"
+Better: "hyper-realistic studio portrait with professional lighting"
+
+3. Visual Hierarchy
+- Start with the main subject
+- Add environment/background
+- Specify lighting and mood
+- Include technical details
+
+4. Professional Photography Language
+- Use camera terminology (85mm lens, f/1.4, shallow depth of field)
+- Reference lighting setups (Rembrandt lighting, studio lighting)
+- Mention photography styles (editorial, cinematic, fine art)
+- Anatomy of Effective Prompts
+- A well-structured prompt typically includes:
+
+## Subject Description (who/what)
+- Pose/Action (body language, positioning)
+- Environment (background, setting)
+- Lighting (type, direction, mood)
+- Style (aesthetic, genre)
+- Technical Specifications (camera settings, composition)
+- Mood/Atmosphere (emotional tone)
 
 ---
 
