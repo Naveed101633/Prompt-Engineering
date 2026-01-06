@@ -12,8 +12,7 @@ When you describe your idea (for example: *“Build a CRM with deals, contacts, 
 - **Live preview environment**  
 - **Editable source code** with direct GitHub sync support  
 
-Because Lovable exports a real codebase, it is especially popular among developers who want to **skip boilerplate setup** without being locked into a no-code ecosystem.
 
-![No-code Interface](Loveable_n8n/l1.avif)
+
 
 
